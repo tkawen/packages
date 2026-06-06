@@ -1,0 +1,35 @@
+{
+  "name": "@tkawen/mystoq-yalidine-bridge",
+  "version": "0.1.1",
+  "description": "Yalidine shipping bridge for Mystoq stores",
+  "main": "src/index.js",
+  "type": "module",
+  "files": [
+    "src/",
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mystoq",
+    "yalidine",
+    "shipping",
+    "algeria",
+    "logistics",
+    "tkawen"
+  ],
+  "author": "Hartem Yaakoub",
+  "license": "MIT",
+  "homepage": "https://github.com/tkawen/packages/tree/main/packages/mystoq-yalidine-bridge#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkawen/packages.git",
+    "directory": "packages/mystoq-yalidine-bridge"
+  },
+  "bugs": {
+    "url": "https://github.com/tkawen/packages/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

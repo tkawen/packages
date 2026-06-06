@@ -1,0 +1,35 @@
+{
+  "name": "@tkawen/mystoq-whatsapp-bridge",
+  "version": "0.1.1",
+  "description": "WhatsApp Cloud API bridge for Mystoq stores",
+  "main": "src/index.js",
+  "type": "module",
+  "files": [
+    "src/",
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mystoq",
+    "whatsapp",
+    "commerce",
+    "cod",
+    "algeria",
+    "tkawen"
+  ],
+  "author": "Hartem Yaakoub",
+  "license": "MIT",
+  "homepage": "https://github.com/tkawen/packages/tree/main/packages/mystoq-whatsapp-bridge#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkawen/packages.git",
+    "directory": "packages/mystoq-whatsapp-bridge"
+  },
+  "bugs": {
+    "url": "https://github.com/tkawen/packages/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

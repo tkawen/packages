@@ -1,0 +1,44 @@
+{
+  "name": "@tkawen/mystoq-seo-toolkit",
+  "version": "0.1.2",
+  "description": "Comprehensive SEO toolkit: llms.txt + sitemap + Schema.org JSON-LD + OpenGraph + hreflang. Built for the modern AI-aware web.",
+  "main": "src/index.js",
+  "type": "module",
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "seo",
+    "llms.txt",
+    "sitemap",
+    "schema-org",
+    "json-ld",
+    "opengraph",
+    "hreflang",
+    "robots-txt",
+    "ai-seo",
+    "geo",
+    "mystoq",
+    "tkawen",
+    "algeria"
+  ],
+  "author": "Hartem Yaakoub",
+  "license": "MIT",
+  "homepage": "https://github.com/tkawen/packages/tree/main/packages/mystoq-seo-toolkit#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkawen/packages.git",
+    "directory": "packages/mystoq-seo-toolkit"
+  },
+  "bugs": {
+    "url": "https://github.com/tkawen/packages/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

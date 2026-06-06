@@ -1,0 +1,62 @@
+{
+  "name": "@tkawen/liqaa-js",
+  "version": "1.0.2",
+  "description": "Official TypeScript SDK for LIQAA Cloud — drop-in video calls + messaging for any website",
+  "keywords": [
+    "liqaa",
+    "video",
+    "video-conferencing",
+    "video-call",
+    "webrtc",
+    "messaging",
+    "chat",
+    "sdk",
+    "real-time",
+    "embed",
+    "tkawen",
+    "algeria"
+  ],
+  "homepage": "https://github.com/tkawen/packages/tree/main/packages/liqaa-js#readme",
+  "bugs": {
+    "url": "https://github.com/tkawen/packages/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkawen/packages.git",
+    "directory": "packages/liqaa-js"
+  },
+  "license": "MIT",
+  "author": "Hartem Yaakoub",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --clean --minify",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "test": "echo 'no tests yet'"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "sideEffects": false
+}

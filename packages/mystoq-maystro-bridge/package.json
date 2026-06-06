@@ -1,6 +1,6 @@
 {
   "name": "@tkawen/mystoq-maystro-bridge",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Maystro Delivery bridge for Mystoq stores",
   "main": "src/index.js",
   "type": "module",

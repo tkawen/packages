@@ -1,6 +1,6 @@
 {
   "name": "@tkawen/mystoq-yalidine-bridge",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Yalidine shipping bridge for Mystoq stores",
   "main": "src/index.js",
   "type": "module",

@@ -1,6 +1,6 @@
 {
   "name": "@tkawen/liqaa-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React hooks and components for LIQAA Cloud — drop-in video calls + messaging",
   "keywords": [
     "liqaa",

@@ -1,6 +1,6 @@
 {
   "name": "@tkawen/mystoq-seo-toolkit",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Comprehensive SEO toolkit: llms.txt + sitemap + Schema.org JSON-LD + OpenGraph + hreflang. Built for the modern AI-aware web.",
   "main": "src/index.js",
   "type": "module",

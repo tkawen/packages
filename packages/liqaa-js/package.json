@@ -1,6 +1,6 @@
 {
   "name": "@tkawen/liqaa-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Official TypeScript SDK for LIQAA Cloud — drop-in video calls + messaging for any website",
   "keywords": [
     "liqaa",

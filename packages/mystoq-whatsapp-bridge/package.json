@@ -1,6 +1,6 @@
 {
   "name": "@tkawen/mystoq-whatsapp-bridge",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "WhatsApp Cloud API bridge for Mystoq stores",
   "main": "src/index.js",
   "type": "module",

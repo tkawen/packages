@@ -26,6 +26,13 @@ Official open-source libraries of the **TKAWEN** ecosystem — Algerian software
 npm install @tkawen/mystoq-sdk      # example
 ```
 
+## Examples · أمثلة
+
+Runnable examples in [`examples/`](examples) — see [docs.tkawen.com/examples](https://docs.tkawen.com/examples/).
+
+- [mystoq-node-quickstart](examples/mystoq-node-quickstart) — create a cash-on-delivery order in Node.js.
+- [liqaa-web-widget](examples/liqaa-web-widget) — add a video-call button to any web page.
+
 ## Ecosystem · المنظومة
 
 - **MCP Gateway:** [mcp.tkawen.com](https://mcp.tkawen.com) — official in the [Model Context Protocol Registry](https://registry.modelcontextprotocol.io) (`com.tkawen/intelligence-gateway`)

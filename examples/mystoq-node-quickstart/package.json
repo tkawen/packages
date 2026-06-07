@@ -1,0 +1,13 @@
+{
+  "name": "mystoq-node-quickstart",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Mystoq SDK quickstart — list wilayas/products and create a COD order.",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "@tkawen/mystoq-sdk": "^0.1.2"
+  }
+}

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LIQAA video widget — example</title>
+  </head>
+  <body>
+    <h1>Talk to us</h1>
+    <p>Click to start an instant video call, powered by LIQAA.</p>
+    <button id="call">Start video call</button>
+
+    <!--
+      LIQAA is a browser widget. @tkawen/liqaa-js is a typed wrapper that
+      loads it on demand. The publicKey is safe in the browser; the sdkToken
+      is short-lived and MUST be minted server-side:
+        POST https://liqaa.io/api/public/v1/sdk-token
+    -->
+    <script type="module">
+      import { LIQAA } from "https://esm.sh/@tkawen/liqaa-js";
+
+      const liqaa = await LIQAA.init({
+        publicKey: "pk_live_xxx",            // your LIQAA public key
+        sdkToken: "REPLACE_WITH_SERVER_TOKEN", // fetched from your backend
+        accent: "#1d4ed8",
+      });
+
+      document.getElementById("call").onclick = () =>
+        liqaa.startCall("support@yoursite.com", "Support");
+
+      liqaa.on("call.started", () => console.log("call started"));
+      liqaa.on("call.ended", () => console.log("call ended"));
+    </script>
+  </body>
+</html>
